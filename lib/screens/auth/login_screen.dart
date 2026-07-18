@@ -38,6 +38,8 @@ class _LoginScreenState extends State<LoginScreen> {
 
                 TextButton(
                   onPressed: (){
+  Navigator.pushNamed(context, '/home');
+},
   Navigator.pushNamed(context, '/otp');
 },
                     setState(() {
