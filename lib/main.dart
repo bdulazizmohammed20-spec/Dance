@@ -16,8 +16,8 @@ class DanceApp extends StatelessWidget {
       theme: ThemeData(
         brightness: Brightness.dark,
         scaffoldBackgroundColor: Colors.black,
-      ),
-      home: const Scaffold(
+      home: const SplashScreen(),
+  
         body: Center(
           child: Text(
             'Dance AI Crypto Trading',
