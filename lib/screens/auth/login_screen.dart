@@ -38,6 +38,8 @@ class _LoginScreenState extends State<LoginScreen> {
 
                 TextButton(
                   onPressed: (){
+  Navigator.pushNamed(context, '/otp');
+},
                     setState(() {
                       emailLogin = true;
                     });
