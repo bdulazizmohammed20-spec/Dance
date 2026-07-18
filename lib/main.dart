@@ -1,5 +1,5 @@
 
-import 'package:flutter/material.dart';
+import 'routes/app_routes.dart';
 import 'screens/splash/splash_screen.dart';
 void main() {
   runApp(const DanceApp());
@@ -16,7 +16,8 @@ class DanceApp extends StatelessWidget {
       theme: ThemeData(
         brightness: Brightness.dark,
         scaffoldBackgroundColor: Colors.black,
-      home: const SplashScreen(),
+      initialRoute: AppRoutes.splash,
+        routes: AppRoutes.routes,
   
         body: Center(
           child: Text(
