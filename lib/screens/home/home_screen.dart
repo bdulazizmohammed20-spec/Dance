@@ -108,11 +108,35 @@ class HomeScreen extends StatelessWidget {
 
               children: [
 
-                _button("تداول"),
+                GestureDetector(
+  onTap: () {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => const TradingScreen(),
+      ),
+    );
+  },
+  child: _button("تداول"),
+),
 
-                _button("المحفظة"),
+GestureDetector(
+  onTap: () {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => const WalletScreen(),
+      ),
+    );
+  },
+  child: _button("المحفظة"),
+),
 
-                _button("الإشارات"),
+_button("الإشارات"),
+
+                
+
+                
 
               ],
             ),
