@@ -1,1 +1,29 @@
+class ApiService {
+  // رابط الخادم (سنستبدله لاحقًا بالرابط الحقيقي)
+  static const String baseUrl = "https://your-server.com/api";
 
+  // تسجيل الدخول
+  Future<void> login() async {
+    // سنضيف الكود لاحقًا
+  }
+
+  // التحقق من كود OTP
+  Future<void> verifyOtp() async {
+    // سنضيف الكود لاحقًا
+  }
+
+  // جلب أسعار العملات
+  Future<void> getMarketPrices() async {
+    // سنضيف الكود لاحقًا
+  }
+
+  // جلب إشارات الذكاء الاصطناعي
+  Future<void> getAiSignals() async {
+    // سنضيف الكود لاحقًا
+  }
+
+  // ربط المحفظة
+  Future<void> connectWallet() async {
+    // سنضيف الكود لاحقًا
+  }
+}
